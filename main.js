@@ -28,7 +28,7 @@ document.getElementById("nameInput").addEventListener("input", () => {
     TODO: Keep the ${user}, but change the rest of the string to a greeting of your choice.
     */
     let user = document.getElementById("nameInput").value;
-    let welcome_string = `Greetings ${user}!`;
+    let welcome_string = `Hello there, ${user}!`;
     document.getElementById("welcomeOutput").innerText = welcome_string;
 });
 
@@ -37,6 +37,6 @@ document.getElementById("languageInput").addEventListener("input", () => {
 
     let answer = document.getElementById("languageInput").value;
     let count = answer.length;
-    let language_string = `You like ${answer}. That takes ${count} characters.`;
+    let language_string = `Your favorite languages include ${answer}. That takes ${count} characters.`;
     document.getElementById("insightsOutput").innerText = language_string;
 });
