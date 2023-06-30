@@ -32,10 +32,10 @@ document.getElementById("nameInput").addEventListener("input", () => {
     document.getElementById("welcomeOutput").innerText = welcome_string;
 });
 
-document.getElementById("languageInput").addEventListener("input", () => {
+document.getElementById("foodInput").addEventListener("input", () => {
      /* Logic on updating the html element with id= 'languageInput'.*/
 
-    let answer = document.getElementById("languageInput").value;
+    let answer = document.getElementById("foodInput").value;
     let count = answer.length;
     let language_string = `Your favorite foods include ${answer}? That takes ${count} characters. Delicious!`;
     document.getElementById("insightsOutput").innerText = language_string;
